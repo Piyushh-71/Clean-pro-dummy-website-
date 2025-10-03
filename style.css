@@ -1,3 +1,8 @@
+@font-face {
+  font-family: test;
+  src: url(./Neue\ Regrade\ Bold\ -\ Copy.otf);
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -20,6 +25,9 @@ body {
   width: 80%;
   background-color: transparent;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .nav-left {
@@ -34,7 +42,7 @@ span {
 }
 h4 > img {
   height: 20px;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 .nav-center {
   margin-top: 30px;
@@ -75,7 +83,79 @@ a > img {
   display: flex;
 }
 
+.shirt {
+  display: flex;
+  margin-top: 100px;
+
+  justify-content: center;
+}
+
+.shirt > img {
+  height: 700px;
+}
+.left-content {
+  height: 100%;
+  width: 40%;
+  top: -72%;
+  left: 13.2%;
+  position: relative;
+}
+.left-content > h1 {
+  position: absolute;
+  font-family: test;
+  font-size: 80px;
+  text-transform: capitalize;
+  color: rgb(254, 254, 255);
+}
+
+.rating {
+  display: flex;
+  gap: 30px;
+}
 img {
-  height: 6px;
-  object-fit: cover;
+  margin-bottom: -12px;
+  height: 40px;
+}
+.right-content {
+  padding: 20px;
+  top: 50%;
+  right: 10%;
+  border: 3px solid beige;
+  position: absolute;
+  border-radius: 9px;
+  background-color: #c09e9e;
+  width: 220px;
+  height: 280px;
+}
+.right-content > img {
+  margin-left: 12px;
+  height: 130px;
+}
+.right-content h3 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.right-content p {
+  font-size: 22px;
+}
+
+.overlayping-content {
+}
+
+.first-over-layping {
+  position: absolute;
+  top: 40%;
+  text-transform: capitalize;
+  left: 55%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.second-over-layping {
+  position: absolute;
+  top: 70%;
+  text-transform: capitalize;
+  left: 53%;
+  font-size: 18px;
+  text-align: center;
 }
